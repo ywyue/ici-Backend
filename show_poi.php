@@ -2,11 +2,11 @@
 header("Content-type:text/html;charset=utf-8");
 require_once "config.php";
 $connection = mysqli_connect($DBHOST,$DBUSER,$DBPWD) or die ("connection MySQL failed!");
+$kyh = 0;
 $db_select = mysqli_select_db($connection,$DBNAME);
 
 
 $self_lat = $_GET['self_lat'];  //前端返回当前位置的纬度
-$self_lng = $_GET['self_lng'];  //前端返回当前位置的经度
 
 function rad($d)
 {
