@@ -1,0 +1,10 @@
+{
+    "require": {
+        "slim/slim": "3.0",
+        "monolog/monolog": "^1.24",
+        "phpunit/phpunit": "^7.4"
+    },
+    "scripts": {
+        "start": "php -S localhost:8080"
+    }
+}

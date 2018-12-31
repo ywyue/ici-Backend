@@ -47,6 +47,3 @@
     {
         echo "Invalid file";
     }
-    
-    mysqli_close($connection);
-    ?>
